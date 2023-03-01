@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.5
+Type=Application
+Terminal=false
+Exec=/usr/bin/customizemii
+Name=CustomizeMii
+Comment=a custom channel creator for the wii
+Icon=customizemii
+Categories=AudioVideo;

@@ -1,0 +1,54 @@
+diff --git a/trunk/CustomizeMii/CustomizeMii.csproj b/trunk/CustomizeMii/CustomizeMii.csproj
+index bcb3a9e..5d93971 100644
+--- a/trunk/CustomizeMii/CustomizeMii.csproj
++++ b/trunk/CustomizeMii/CustomizeMii.csproj
+@@ -129,7 +129,7 @@
+     <Compile Include="CustomizeMii_Transmit.cs">
+       <SubType>Form</SubType>
+     </Compile>
+-    <Compile Include="CustomizeMii_Transmit.designer.cs">
++    <Compile Include="CustomizeMii_Transmit.Designer.cs">
+       <DependentUpon>CustomizeMii_Transmit.cs</DependentUpon>
+     </Compile>
+     <Compile Include="MP3Info.cs" />
+@@ -181,7 +181,7 @@
+     <Compile Include="CustomizeMii_Preview.cs">
+       <SubType>Form</SubType>
+     </Compile>
+-    <Compile Include="CustomizeMii_Preview.designer.cs">
++    <Compile Include="CustomizeMii_Preview.Designer.cs">
+       <DependentUpon>CustomizeMii_Preview.cs</DependentUpon>
+     </Compile>
+   </ItemGroup>
+@@ -240,4 +240,4 @@
+   <Target Name="AfterBuild">
+   </Target>
+   -->
+-</Project>
+\ No newline at end of file
++</Project>
+diff --git a/trunk/CustomizeMii/Properties/Resources.resx b/trunk/CustomizeMii/Properties/Resources.resx
+index faf8dfb..016b3a1 100644
+--- a/trunk/CustomizeMii/Properties/Resources.resx
++++ b/trunk/CustomizeMii/Properties/Resources.resx
+@@ -125,15 +125,15 @@
+     <value>..\Resources\btnSend.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+   </data>
+   <data name="comex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+-    <value>..\resources\comex.app;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
++    <value>..\Resources\comex.app;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+   </data>
+   <data name="CustomizeMii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+     <value>..\Resources\CustomizeMii.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+   </data>
+   <data name="Instructions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+-    <value>..\resources\instructions.rtf;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
++    <value>..\Resources\Instructions.rtf;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+   </data>
+   <data name="Waninkoko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+-    <value>..\resources\waninkoko.app;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
++    <value>..\Resources\Waninkoko.app;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+   </data>
+-</root>
+\ No newline at end of file
++</root>
