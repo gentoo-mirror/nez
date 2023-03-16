@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst
+DEPEND=>=app-shells/bash-5.1_p16-r1 >=sys-apps/coreutils-8.32-r1 >=dev-lang/mono-6.12.0.122
+DESCRIPTION=a custom channel creator for the wii
+EAPI=8
+HOMEPAGE=https://code.google.com/archive/p/customizemii/
+INHERIT=xdg-utils
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=app-shells/bash-5.1_p16-r1 >=sys-apps/coreutils-8.32-r1 >=dev-lang/mono-6.12.0.122
+SLOT=0
+SRC_URI=https://storage.googleapis.com/google-code-archive-source/v2/code.google.com/customizemii/source-archive.zip
+_eclasses_=xdg-utils	ac0e315a3688929e34ac75b139e7349a
+_md5_=514a4ea4636a61a536749531591f3745

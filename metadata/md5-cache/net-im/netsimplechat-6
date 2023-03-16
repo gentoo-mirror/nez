@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure
+DEPEND=>=dev-lang/mono-6.12.0.122 >=app-shells/bash-5.1 >=sys-apps/coreutils-8.32
+DESCRIPTION=simple c# .net chat client that can be adapted to many services
+EAPI=8
+HOMEPAGE=https://github.com/kawaiizenbo/netsimplechat
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-6.12.0.122 >=app-shells/bash-5.1 >=sys-apps/coreutils-8.32
+SLOT=0
+SRC_URI=https://github.com/kawaiizenbo/netsimplechat/archive/refs/tags/6.tar.gz
+_md5_=97d98b1f2808378e2cfea3b82ea1bb08
