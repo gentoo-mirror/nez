@@ -1,5 +1,5 @@
 # Copyright 2023 Gentoo Authors
-# Distributed under the terms of the GNU General Public License v2
+# Distributed under the terms of the GNU General Public License v3
 
 EAPI=8
 
@@ -17,11 +17,12 @@ KEYWORDS="~amd64"
 
 DEPEND="${PYTHON_DEPS} media-video/ffmpeg media-video/mpv[libmpv] dev-python/requests dev-python/chardet dev-python/setproctitle dev-python/PyQt5[widgets] dev-python/pillow dev-python/pygobject dev-python/unidecode dev-python/pydbus"
 RDEPEND="${DEPEND}"
-BDEPEND="${DEPEND} sys-devel/gettext"
+BDEPEND="${DEPEND} sys-devel/gettext sys-apps/findutils"
 
 src_install() {
 	while read p; do
 		cp -rv "$p" "$D/$p"
+		find "$D/$p" -type f -exec sed -i -e "s/__DEB_VERSION__/${PV}/g" "{}" \;
 	done < debian/install
 }
 
