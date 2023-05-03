@@ -15,7 +15,7 @@ LICENSE="MIT CC-BY-4.0"
 SLOT="0"
 KEYWORDS="~amd64"
 
-DEPEND="${PYTHON_DEPS} media-video/ffmpeg media-video/mpv[libmpv] dev-python/requests dev-python/chardet dev-python/setproctitle dev-python/PyQt5 dev-python/pillow dev-python/pygobject dev-python/unidecode dev-python/pydbus"
+DEPEND="${PYTHON_DEPS} media-video/ffmpeg media-video/mpv[libmpv] dev-python/requests dev-python/chardet dev-python/setproctitle dev-python/PyQt5[widgets] dev-python/pillow dev-python/pygobject dev-python/unidecode dev-python/pydbus"
 RDEPEND="${DEPEND}"
 BDEPEND="${DEPEND} sys-devel/gettext"
 
