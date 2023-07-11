@@ -11,7 +11,7 @@ LICENSE="MIT CC-BY-3.0"
 SLOT="0"
 KEYWORDS="~amd64"
 RDEPEND=">=dev-dotnet/dotnet-sdk-bin-6.0.301 >=sys-apps/coreutils-8.32-r1 >=dev-libs/openssl-1.1.1o >=app-arch/unzip-6.0_p26 >=sys-apps/sed-4.8"
-DEPEND="${RDEPEND} jpeg? (x11-libs/gdk-pixbuf[jpeg] )"
+DEPEND="${RDEPEND} jpeg? ( x11-libs/gdk-pixbuf[jpeg] )"
 IUSE="+jpeg"
 
 src_prepare() {
