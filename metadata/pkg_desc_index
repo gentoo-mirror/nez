@@ -1,3 +1,4 @@
 dev-python/func-timeout 4.3.5: Python module which allows you to specify timeouts when calling functions
 media-gfx/pinta 2.0.2 2.1.1: Painting Made Simple
+sys-fs/dirsplit 0.3.3: splits directory into multiple with equal size
 sys-fs/unyaffs 0.9.7: A program to extract files from a yaffs image
