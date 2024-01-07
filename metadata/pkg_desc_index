@@ -1,3 +1,2 @@
-dev-python/func-timeout 4.3.5: Python module which allows you to specify timeouts when calling functions
 sys-fs/dirsplit 0.3.3: splits directory into multiple with equal size
 sys-fs/unyaffs 0.9.7: A program to extract files from a yaffs image
