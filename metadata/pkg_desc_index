@@ -1,2 +1,4 @@
+dev-python/func-timeout 4.3.6_beta_p20220202: Allows you to specify timeouts when calling any existing function
+games-misc/osc-dl 1.4.0: Desktop utility for downloading homebrew apps from the Open Shop Channel
 sys-fs/dirsplit 0.3.3: splits directory into multiple with equal size
 sys-fs/unyaffs 0.9.7: A program to extract files from a yaffs image

@@ -1,0 +1,16 @@
+DEFINED_PHASES=install setup
+DEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) >=dev-python/requests-2.31.0 >=dev-python/packaging-24.0 >=dev-python/markdown-3.6 >=dev-python/pillow-10.2.0-r1 >=dev-python/pyserial-3.5-r2 >=dev-python/pyside6-6.6.2-r1 >=dev-python/darkdetect-0.8.0 >=dev-python/func-timeout-4.3.5
+DESCRIPTION=Desktop utility for downloading homebrew apps from the Open Shop Channel
+EAPI=8
+HOMEPAGE=https://github.com/dhtdht020/osc-dl
+INHERIT=python-single-r1 desktop
+IUSE=python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) >=dev-python/requests-2.31.0 >=dev-python/packaging-24.0 >=dev-python/markdown-3.6 >=dev-python/pillow-10.2.0-r1 >=dev-python/pyserial-3.5-r2 >=dev-python/pyside6-6.6.2-r1 >=dev-python/darkdetect-0.8.0 >=dev-python/func-timeout-4.3.5
+REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 )
+RESTRICT=mirror test
+SLOT=0
+SRC_URI=https://codeload.github.com/dhtdht020/osc-dl/tar.gz/refs/tags/1.4.0 -> osc-dl-1.4.0.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	8904b60325f22500b0c3ad4b68a42448	python-single-r1	75118e916668a74c660a13b0ecb22562	desktop	021728fdc1b03b36357dbc89489e0f0d
+_md5_=17834fd27f7084a53922c0611988923e
