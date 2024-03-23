@@ -40,7 +40,7 @@ src_install() {
 	cp -rv "${S}/." "${D}/opt/osc-dl/"
 
 	echo "#!/bin/sh" > "${WORKDIR}/osc-dl"
-	echo "python /opt/osc-dl/oscdl.py" >> "${WORKDIR}/osc-dl"
+	echo "python /opt/osc-dl/oscdl.py \"\$@\"" >> "${WORKDIR}/osc-dl"
 
 	python_doexe "${WORKDIR}/osc-dl"
 
