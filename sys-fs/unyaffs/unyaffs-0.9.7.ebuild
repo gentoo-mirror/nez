@@ -7,6 +7,8 @@ DESCRIPTION="A program to extract files from a yaffs image"
 HOMEPAGE="https://web.archive.org/web/20200807212923/https://www.b-ehlers.de/projects/unyaffs.html"
 SRC_URI="https://deb.debian.org/debian/pool/main/u/unyaffs/unyaffs_$PV.orig.tar.gz"
 
+RESTRICT="mirror"
+
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
