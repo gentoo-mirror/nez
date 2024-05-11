@@ -7,6 +7,8 @@ DESCRIPTION="splits directory into multiple with equal size"
 HOMEPAGE="https://linux.die.net/man/1/dirsplit"
 SRC_URI="http://download.lunar-linux.org/lunar/patches/dirsplit-${PV}.tar.bz2"
 
+RESTRICT="mirror"
+
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
