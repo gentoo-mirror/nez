@@ -1,0 +1,15 @@
+#!/sbin/openrc-run
+# Copyright 2024 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+name="mpdcron"
+description="A 'cron' like program for mpd"
+
+export MPDCRON_DIR
+command=/usr/bin/mpdcron
+command_args="${mpdcron_args}"
+pidfile=/var/run/mpdcron.pid
+
+depend() {
+	after mpd
+}

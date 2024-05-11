@@ -1,0 +1,4 @@
+# conf.d file for mpdcron
+
+# configuration directory
+MPDCRON_DIR="/etc/mpdcron"
