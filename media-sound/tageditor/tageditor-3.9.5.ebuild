@@ -22,7 +22,7 @@ IUSE="qt"
 
 RDEPEND="dev-libs/cpp-utilities
 	 media-sound/tagparser
-	 qt? ( dev-libs/qtutilities[-qt6] )"
+	 qt? ( dev-libs/qtutilities[-qt6] dev-qt/qtconcurrent )"
 DEPEND="${RDEPEND}"
 
 src_configure() {
