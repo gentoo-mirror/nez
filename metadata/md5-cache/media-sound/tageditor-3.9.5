@@ -1,6 +1,6 @@
 BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install postinst postrm prepare test
-DEPEND=dev-libs/cpp-utilities media-sound/tagparser qt? ( dev-libs/qtutilities[-qt6] )
+DEPEND=dev-libs/cpp-utilities media-sound/tagparser qt? ( dev-libs/qtutilities[-qt6] dev-qt/qtconcurrent )
 DESCRIPTION=A tag editor with command-line interface supporting MP4/M4A/AAC (iTunes), ID3, Vorbis, Opus, FLAC and Matroska
 EAPI=8
 HOMEPAGE=https://github.com/Martchus/tageditor
@@ -8,9 +8,9 @@ INHERIT=cmake
 IUSE=qt
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=dev-libs/cpp-utilities media-sound/tagparser qt? ( dev-libs/qtutilities[-qt6] )
+RDEPEND=dev-libs/cpp-utilities media-sound/tagparser qt? ( dev-libs/qtutilities[-qt6] dev-qt/qtconcurrent )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Martchus/tageditor/archive/v3.9.5.tar.gz -> tageditor-3.9.5.tar.gz
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	c0c9c21d01b8a96d2d736c554daedc57
-_md5_=a99195392edb942b6653e66169caf565
+_md5_=3a7266aba9648f6fe91d30f3444078c5
